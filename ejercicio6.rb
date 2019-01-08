@@ -1,9 +1,10 @@
 def draw_line(size)
-  '*'.size
+    puts "*****\n" * size 
 end
 def draw_lines(size)
-  size.times ()
+  size.times do |size|
+    draw_line()
+  end
 end
 
-draw_line 2
-draw_line 10
+draw_line 5
